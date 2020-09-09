@@ -18,7 +18,7 @@ get_infos()
 for project in $(seq 10)
 do
 	echo project-$project
-	get_infos $project &
+	get_infos $project & 
 
 done
 
