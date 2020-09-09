@@ -1,3 +1,5 @@
+```text
+
 eduardo@~/git-repository/git-ecarneiro/shellscritpt/parallelism$ ls
 README.md  parallelism.sh  parallelism2.sh  parallelism3.sh
 eduardo@~/git-repository/git-ecarneiro/shellscritpt/parallelism$ cat parallelism3.sh 
@@ -86,3 +88,5 @@ real    0m0.013s
 user    0m0.008s
 sys     0m0.005s
 eduardo@~/git-repository/git-ecarneiro/shellscritpt/parallelism$ 
+
+```
