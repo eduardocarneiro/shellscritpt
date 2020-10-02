@@ -9,7 +9,7 @@ function get_infos()
 	do
 	#	echo "$A - resource $b" 	
 		touch $A-$b.txt 
-		sleep 2
+#		sleep 2
 	done
 }
 
@@ -20,8 +20,10 @@ for project in $(seq 10)
 do
 	echo project-$project
 	get_infos $project &
-	echo $!
-	ps -p $!
+	#echo $!
+	#ps -p $!
 
 done
+
+wait
 
